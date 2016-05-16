@@ -1,21 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Final Project - NYC Taxi Data
 An Analysis of the Yellow Cab Data
 by
