@@ -1,7 +1,3 @@
-# BigData2016
-Analysis of Taxi Data
-
-
 
 
 
@@ -26,7 +22,7 @@ by
 Viswanatha Mehta vsm263
 Vikas Deo vkd225
 Satish Kapalavayi sk6140
-Introduction
+Introduction
 The New York City Taxi & Limousine Commission periodically release a staggeringly detailed historical dataset that cover almost 1.2 billion individual taxi trips in the city from January 2009 through June 2015. Along with a multitude of other datasets available such as weather and income data, it is possible to analyze the data to find particular patterns. In particular, we attempt to find the way people tip the cab drivers.
 
 Brief
@@ -132,7 +128,7 @@ The same variance as distance travelled is followed here, but if the passenger c
 
 
 
-Tip Percentage and Distance Travelled
+Tip Percentage and Distance Travelled
 The Tip Percentage clustered around distance was queried.
 The queries are available under s3://bigdatanyctaxi/mapper_dist.py, s3://bigdatanyctaxi/reduce_dist.py
 Arguments: hadoop-streaming -D mapreduce.job.reduces=50 -files s3://bigdatanyctaxi/mapper_dist.py,s3://bigdatanyctaxi/reduce_tip.py -mapper mapper_dist.py -reducer reduce_tip.py -input s3://bigdatanyctaxi/output_final/ -output s3://bigdatanyctaxi/dist_tip/
@@ -168,7 +164,7 @@ The order shows the importance given by each member to the task.
 Vishwanath - Map reduce Queries, Tableau
 Vikas - Mapbox, mapreduce Queries, 
 Satish - Mapreduce Queries, Data Cleaning 
-REFERENCES
+REFERENCES
 [0] https://github.com/vzmehta/BigData2016.git
 
 [1] http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml
