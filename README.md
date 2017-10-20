@@ -145,7 +145,7 @@ Individual Contributions:
 The whole project was a joint effort, as electrical students, we three were new to programming and data sciences and we had to help each other to learn more.
 The order shows the importance given by each member to the task. 
 Vishwanath - Map reduce Queries, Tableau
-Vikas - Mapbox, mapreduce Queries, 
+Vikash - Mapbox, mapreduce Queries, 
 Satish - Mapreduce Queries, Data Cleaning 
 REFERENCES
 [0] https://github.com/vzmehta/BigData2016.git
