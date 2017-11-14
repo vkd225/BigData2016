@@ -58,7 +58,7 @@ The queries are simple enough where the mapper selects only the required data an
 # Arguments: hadoop-streaming -D mapreduce.job.reduces=50 -files s3://bigdatanyctaxi/mapper_tip.py,s3://bigdatanyctaxi/reduce_tip.py -mapper mapper_tip.py -reducer reduce_tip.py -input s3://bigdatanyctaxi/output_final/ -output s3://bigdatanyctaxi/tip_final_output/
 Running time : 18 minutes
 
-# Inference:
+-- Inference:
 Here, form the mapBox code provided[0] and as shown in the image below, we can see that higher percentage of tippers belong to downtown or midtown business hubs.
 We also see that FiDi/Wall street live up to their name of bankers and not tip enough :)
 This may also be due to them paying in Cash, and cash tips do not get recorded 
@@ -97,8 +97,11 @@ Here, we see that as the passengers tend to travel more, they tend to tip more, 
 Tip Percentage variance with Time and distance Travelled
 The Tip Percentage clustered around Distance travelled along with time travelled was queried.
 The queries are available under s3://bigdatanyctaxi/mapper_tip_dist.py, s3://bigdatanyctaxi/reduce_dist.py
+
 Arguments: hadoop-streaming -D mapreduce.job.reduces=50 -files s3://bigdatanyctaxi/mapper_tip_dist.py,s3://bigdatanyctaxi/reduce_tip.py -mapper mapper_tip_dist.py -reducer reduce_tip.py -input s3://bigdatanyctaxi/output_final/ -output s3://bigdatanyctaxi/time_tip_dist/
+
 Running time : 12 minutesFuture Analysis:
+
 Tip variance according to time of day and time of the year
 This analysis would show how the tip varies as day progresses and around social hotspots such as meatpacking shows increase in tip percentages as the evening progresses.
 Tip Variance according to mean income
@@ -109,9 +112,11 @@ This is another important social factor we would like to study, where we would w
 # Individual Contributions:
 The whole project was a joint effort, as electrical students, we three were new to programming and data sciences and we had to help each other to learn more.
 The order shows the importance given by each member to the task. 
-Vishwanath - Map reduce Queries, Tableau
-Vikash - Mapbox, D3 JS, MapReduce Queries, 
+
 Satish - Mapreduce Queries, Data Cleaning 
+Vikash - Mapbox, D3 JS, MapReduce Queries, 
+Vishwanath - Map reduce Queries, Tableau
+
 REFERENCES
 [0] https://github.com/vzmehta/BigData2016.git
 
