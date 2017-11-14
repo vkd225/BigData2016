@@ -1,14 +1,17 @@
-
+```
 Final Project - NYC Taxi Data
 An Analysis of the Yellow Cab Data
-by
-Viswanatha Mehta vsm263
-Vikas Deo vkd225
+
 Satish Kapalavayi sk6140
-Introduction
+Vikash Deo vkd225
+Viswanatha Mehta vsm263
+```
+
+```
+### Introduction:
 The New York City Taxi & Limousine Commission periodically release a staggeringly detailed historical dataset that cover almost 1.2 billion individual taxi trips in the city from January 2009 through June 2015. Along with a multitude of other datasets available such as weather and income data, it is possible to analyze the data to find particular patterns. In particular, we attempt to find the way people tip the cab drivers.
 
-Brief
+### Brief
 The project will attempt to find the correlation between the way people tip and the average income of the neighborhood. The project will later delve into finding if the rider’s tip percentage varies in accordance to the distance travelled. A better analysis of the same was done, where the tip percentage dependance on time spent in the cab was measured. 
 
 As we envisioned, the tip percentage gradually increases as the riders spend more time in the cab. This we assume is owing to the fact that the human connect between the riders and the drivers lead to more tipping. One caveat to this was when the number of passengers in the car increases, tip dependency on time spent in the car decreases. This we assume is because the passenger’s interaction to the cabbie is limited and thus the tip percentage dependency is also lower. 
@@ -157,4 +160,6 @@ REFERENCES
 [3] https://github.com/ViDA-NYU/aws_taxi/blob/master/rtree.sh
 
 [4] http://catalog.civicdashboards.com/dataset/e5bbe399-aee4-45d4-a7d3-d6ece7f18bf4/resource/a31b967f-3df2-47da-ac67-50fa420f9cb2/download/9a2703e0737d4aab855017ff2d636603nycboroughboundaries.geojson
+
+```
 
